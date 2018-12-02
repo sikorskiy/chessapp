@@ -1,0 +1,31 @@
+
+h1 {
+  text-align: center;
+}
+
+td {
+  width: 5vw;
+  height: 5vw;
+  font-size: 3vw;
+  text-align: center;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: #DADADA;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+  background-color: papayawhip;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: #DADADA;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: #DADADA;
+}
