@@ -903,3 +903,10 @@ Processing by PlayersController#game as HTML
 Completed 200 OK in 80ms (Views: 70.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/game" for 127.0.0.1 at 2018-12-02 18:37:57 +0300
+Processing by PlayersController#game as HTML
+  Rendering players/game.html.erb within layouts/application
+  Rendered players/game.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 139ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
