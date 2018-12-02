@@ -1,12 +1,22 @@
 <h1> Sikorskiy VS Kasparov </h1>
-<table>
-    <% 8.times do %>
-      <tr>
-        <% 8.times do %>
-          <td>&#9823;</td>
-        <% end %>
-      </tr>
-    <% end %>
-</table>
+<div class = 'block'>
+  <table>
+      <% 8.times do %>
+        <tr>
+          <% 8.times do %>
+            <td>&#9823;</td>
+          <% end %>
+        </tr>
+      <% end %>
+  </table>
+</div>
 
-<%= link_to 'Вернуться на главную', root_path %>
+<div class="block waiting_players">
+  <h2> Players waiting </h2>
+  <% @players_waiting.each do |p| %>
+    <p> <%= p %></p>
+  <% end %>
+</div>
+<footer>
+  <%= link_to 'Вернуться на главную', root_path %>
+</footer>
